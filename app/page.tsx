@@ -3,7 +3,8 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const WHATSAPP_LINK = "https://wa.me/5500000000000";
+const CTA_LINK =
+  "https://mancekt.com/yayforms-estetica/?country=BR&fbp=fb.1.1782168737044.50069969987360136&ct=trescoroas&st=rs&zp=95660&client_ip=2804%3A30c%3A130b%3A8101%3A344f%3Aa531%3Acb33%3Ab15d";
 
 function Header() {
   return (
@@ -13,7 +14,7 @@ function Header() {
           <Image src="/assets/logo.png" alt="Mancekt Logo" width={32} height={32} className="logo-img" />
           <span className="logo-text">Mancekt</span>
         </a>
-        <a href={WHATSAPP_LINK} className="nav-btn-conversar">
+        <a href={CTA_LINK} className="nav-btn-conversar">
           Quero conversar
         </a>
       </div>
@@ -39,7 +40,7 @@ function Hero() {
             podia ser sua. <strong>A Mancekt constrói o sistema que muda isso.</strong>
           </p>
           <div className="hero-ctas">
-            <a href={WHATSAPP_LINK} className="btn-primary btn-primary-lg">
+            <a href={CTA_LINK} className="btn-primary btn-primary-lg">
               Quero ter controle sobre minhas vendas
             </a>
           </div>
@@ -126,7 +127,7 @@ function Solution() {
               Na Mancekt, a gente entrega um sistema de marketing inteligente construído para escritório
               e vendedor de consórcio: atração, qualificação e leads prontos para a conversa comercial.
             </p>
-            <a href={WHATSAPP_LINK} className="btn-primary btn-primary-lg solution-cta-group">
+            <a href={CTA_LINK} className="btn-primary btn-primary-lg solution-cta-group">
               Quero ter controle sobre minhas vendas
             </a>
           </div>
@@ -220,7 +221,7 @@ function HowItWorks() {
           </div>
         </div>
         <div className="cases-cta-wrap" style={{ marginTop: 50 }}>
-          <a href={WHATSAPP_LINK} className="btn-primary btn-primary-lg learning-cta">
+          <a href={CTA_LINK} className="btn-primary btn-primary-lg learning-cta">
             Quero conhecer o sistema
           </a>
         </div>
@@ -257,7 +258,7 @@ function Phases() {
           </div>
         </div>
         <div className="cases-cta-wrap" style={{ marginTop: 50 }}>
-          <a href={WHATSAPP_LINK} className="btn-primary btn-primary-lg evolution-cta">
+          <a href={CTA_LINK} className="btn-primary btn-primary-lg evolution-cta">
             Quero construir meu sistema
           </a>
         </div>
@@ -317,7 +318,7 @@ function Results() {
           </div>
         </div>
         <div className="cases-cta-wrap cases-footer">
-          <a href={WHATSAPP_LINK} className="btn-primary btn-primary-lg">
+          <a href={CTA_LINK} className="btn-primary btn-primary-lg">
             Quero o mesmo para o meu escritório
           </a>
         </div>
@@ -453,7 +454,7 @@ function Investment() {
                 <li key={i}>{i}</li>
               ))}
             </ul>
-            <a href={WHATSAPP_LINK} className="btn-primary">
+            <a href={CTA_LINK} className="btn-primary">
               Quero ter controle sobre minhas vendas
             </a>
           </div>
@@ -494,7 +495,7 @@ function Diagnostic() {
             consórcio e a gente te mostra, sem custo e sem compromisso, onde estão as maiores
             oportunidades de melhoria.
           </p>
-          <a href={WHATSAPP_LINK} className="btn-primary btn-primary-lg">
+          <a href={CTA_LINK} className="btn-primary btn-primary-lg">
             Quero meu diagnóstico gratuito
           </a>
         </div>
@@ -585,7 +586,7 @@ function Closing() {
           A única pergunta é: quantas cotas a mais você vai deixar passar dependendo de sorte e
           indicação, enquanto quem tem sistema fecha todo dia?
         </p>
-        <a href={WHATSAPP_LINK} className="btn-primary btn-primary-lg">
+        <a href={CTA_LINK} className="btn-primary btn-primary-lg">
           Quero ter controle sobre minhas vendas
         </a>
       </div>
