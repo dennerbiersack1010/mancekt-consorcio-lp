@@ -1,0 +1,795 @@
+{
+  "version": "0.4",
+  "title": "Mancekt - Consórcio LP",
+  "type": "page",
+  "page_settings": {
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "custom_css": ":root{--bg-light:#f3f3f3;--bg-white:#ffffff;--bg-dark:#0a0a0a;--text-dark:#111111;--text-gray:#666666;--text-light:#888888;--border-light:rgba(0,0,0,0.08);}body{font-family:'Outfit',sans-serif;}h1,h2,h3{font-family:'Outfit',sans-serif;}.mk-gradient-text{background:linear-gradient(135deg,#7b0099 0%,#e60073 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-weight:800;}.mk-badge{display:inline-block;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.08em;color:#666;border:1px solid rgba(0,0,0,.08);border-radius:6px;padding:6px 14px;background:rgba(0,0,0,.02);}.mk-btn a{font-family:'Outfit',sans-serif !important;font-weight:500 !important;}"
+  },
+  "content": [
+    {
+      "id": "hdr01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "background_background": "classic",
+        "background_color": "#F3F3F3",
+        "padding": { "unit": "px", "top": "20", "bottom": "20", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "hdrcol01",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "hdrlogo01",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "https://mancekt.com/estetica/assets/logo.png" },
+                "image_size": "custom",
+                "image_custom_dimension": { "width": 32, "height": 32 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "hdrcol02",
+          "elType": "column",
+          "settings": { "_column_size": 50, "content_position": "middle", "align": "right" },
+          "elements": [
+            {
+              "id": "hdrbtn01",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Quero conversar",
+                "link": { "url": "https://wa.me/5500000000000" },
+                "align": "right",
+                "background_color": "#7B0099",
+                "button_background_hover_color": "#9100B3",
+                "border_radius": { "unit": "px", "top": "999", "bottom": "999", "left": "999", "right": "999" },
+                "background_hover_color": "#9100B3",
+                "custom_css": "selector{background:linear-gradient(135deg,#7b0099 0%,#e60073 100%) !important;}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F3F3F3",
+        "padding": { "unit": "px", "top": "120", "bottom": "80", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "herocol01",
+          "elType": "column",
+          "settings": { "_column_size": 100, "content_position": "center" },
+          "elements": [
+            {
+              "id": "herobadge01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<span class=\"mk-badge\">2025 · R$500 bi em créditos comercializados · 12,7M participantes ativos</span>" }
+            },
+            {
+              "id": "herotitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sistema de Marketing Inteligente para <span class=\"mk-gradient-text\">Escritórios de Consórcio</span>",
+                "size": "large",
+                "header_size": "h1",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "herosub01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:17px;font-weight:300;line-height:1.65;color:#666;max-width:620px;\">Os clientes certos para fechar consórcio precisam chegar até você. Não até o seu concorrente. Enquanto você espera indicação, tem representante de consórcio na sua cidade fechando cota que podia ser sua. <strong>A Mancekt constrói o sistema que muda isso.</strong></p>"
+              }
+            },
+            {
+              "id": "herobtn01",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Quero ter controle sobre minhas vendas",
+                "link": { "url": "https://wa.me/5500000000000" },
+                "size": "lg",
+                "border_radius": { "unit": "px", "top": "999", "bottom": "999", "left": "999", "right": "999" },
+                "custom_css": "selector{background:linear-gradient(135deg,#7b0099 0%,#e60073 100%) !important;color:#fff !important;padding:20px 56px !important;}"
+              }
+            },
+            {
+              "id": "herofeat01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul style=\"list-style:none;display:flex;flex-wrap:wrap;gap:12px 28px;font-size:13.5px;color:#111;padding:0;\"><li>• 100% baseado em dados do seu escritório</li><li>• Diário acompanhamento e ajustes contínuos</li><li>• IA qualificação inteligente de cada lead</li><li>• Único sistema construído para consórcio</li></ul>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "problem01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "120", "bottom": "120", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "problemcol01",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "problembadge01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<span class=\"mk-badge\">O problema</span>" }
+            },
+            {
+              "id": "problemtitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sem um sistema estruturado, você está sempre começando do zero. E o concorrente que já tem sistema não está.",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 40 },
+                "typography_font_weight": "300"
+              }
+            },
+            {
+              "id": "problemtext01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:16px;color:#666;max-width:700px;\">Cada mês é uma corrida: de onde vão vir as próximas cotas fechadas? Você prospecta quando a agenda está vazia e para de prospectar quando está cheia.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "problemcards01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "0", "bottom": "120", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "pc01",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "pc01w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#f7f7f7;border:1px solid rgba(0,0,0,.08);border-radius:20px;padding:30px;min-height:180px;\"><h3 style=\"font-size:18px;font-weight:500;margin-bottom:10px;\">Comissão instável</h3><p style=\"font-size:14px;color:#666;\">Um mês bom e dois meses ruins. Você nunca sabe qual vem a seguir.</p></div>" }
+            }
+          ]
+        },
+        {
+          "id": "pc02",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "pc02w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#f7f7f7;border:1px solid rgba(0,0,0,.08);border-radius:20px;padding:30px;min-height:180px;\"><h3 style=\"font-size:18px;font-weight:500;margin-bottom:10px;\">Mercado batendo recorde</h3><p style=\"font-size:14px;color:#666;\">32% de crescimento em créditos comercializados no último ano.</p></div>" }
+            }
+          ]
+        },
+        {
+          "id": "pc03",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "pc03w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#f7f7f7;border:1px solid rgba(0,0,0,.08);border-radius:20px;padding:30px;min-height:180px;\"><h3 style=\"font-size:18px;font-weight:500;margin-bottom:10px;\">Indicação não escala</h3><p style=\"font-size:14px;color:#666;\">Networking não é previsível.</p></div>" }
+            }
+          ]
+        },
+        {
+          "id": "pc04",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "pc04w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#0a0a0a;color:#fff;border-radius:20px;padding:30px;min-height:180px;\"><h3 style=\"font-size:18px;font-weight:500;margin-bottom:10px;color:#fff;\">O custo que não entra na planilha</h3><p style=\"font-size:14px;color:#aaa;\">Quantas cotas você deixou de fechar esse mês por falta de lead qualificado?</p></div>" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solution01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "120", "bottom": "120", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "solcol01",
+          "elType": "column",
+          "settings": { "_column_size": 55 },
+          "elements": [
+            {
+              "id": "solbadge01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<span class=\"mk-badge\">A solução</span>" }
+            },
+            {
+              "id": "soltitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "O que separa quem fecha todo mês de quem vive de maré é ter controle.", "header_size": "h2", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 36 }, "typography_font_weight": "300" }
+            },
+            {
+              "id": "soltext01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style=\"font-size:15px;color:#666;\">Não adianta gerar volume de lead genérico de consórcio. Lead sem qualificação é vendedor perdendo tempo, é reunião que não vai pra frente.</p><p style=\"font-size:16px;font-weight:400;border-left:2px solid #111;padding-left:20px;margin:24px 0;\">Na Mancekt, a gente entrega um sistema de marketing inteligente construído para escritório e vendedor de consórcio.</p>" }
+            },
+            {
+              "id": "solbtn01",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": { "text": "Quero ter controle sobre minhas vendas", "link": { "url": "https://wa.me/5500000000000" }, "custom_css": "selector{background:linear-gradient(135deg,#7b0099 0%,#e60073 100%) !important;color:#fff !important;border-radius:999px !important;padding:18px 44px !important;}" }
+            }
+          ]
+        },
+        {
+          "id": "solcol02",
+          "elType": "column",
+          "settings": { "_column_size": 45 },
+          "elements": [
+            {
+              "id": "soldash01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#0c0d10;border-radius:20px;padding:22px;color:#fff;\"><div style=\"display:flex;justify-content:space-between;font-size:11px;color:#a1a1aa;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:12px;margin-bottom:12px;\"><span>PAINEL DE LEADS</span><span>Segunda-feira</span></div><div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:14px;\"><div style=\"background:rgba(255,255,255,.03);border-radius:10px;padding:10px;\"><div style=\"font-size:18px;font-weight:600;\">247</div><div style=\"font-size:9.5px;color:#71717a;\">Leads esse mês</div></div><div style=\"background:rgba(255,255,255,.03);border-radius:10px;padding:10px;\"><div style=\"font-size:18px;font-weight:600;\">89</div><div style=\"font-size:9.5px;color:#71717a;\">Qualificados</div></div><div style=\"background:rgba(255,255,255,.03);border-radius:10px;padding:10px;\"><div style=\"font-size:18px;font-weight:600;\">23</div><div style=\"font-size:9.5px;color:#71717a;\">Prontos p/ fechar</div></div></div><div style=\"font-size:10px;color:#71717a;text-align:center;\">Atualizado agora · Sistema operando</div></div>" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "howitworks01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F3F3F3",
+        "padding": { "unit": "px", "top": "100", "bottom": "60", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "hiwcol01",
+          "elType": "column",
+          "settings": { "_column_size": 100, "content_position": "center" },
+          "elements": [
+            {
+              "id": "hiwbadge01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<span class=\"mk-badge\">Como funciona</span>" }
+            },
+            {
+              "id": "hiwtitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "O que acontece depois do clique.", "align": "center", "header_size": "h2", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 36 }, "typography_font_weight": "300" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "howitworks02",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F3F3F3",
+        "padding": { "unit": "px", "top": "0", "bottom": "100", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "hiwc01",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "hiwc01w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#0d0e12;color:#fff;border-radius:20px;padding:26px;\"><div style=\"font-size:13px;color:#71717a;margin-bottom:14px;\">01</div><h3 style=\"font-size:16px;margin-bottom:8px;\">Lead entra</h3><p style=\"font-size:13px;color:#8a8d9a;\">Visitante acessa a campanha e preenche o formulário de qualificação.</p></div>" }
+            }
+          ]
+        },
+        {
+          "id": "hiwc02",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "hiwc02w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#0d0e12;color:#fff;border-radius:20px;padding:26px;\"><div style=\"font-size:13px;color:#71717a;margin-bottom:14px;\">02</div><h3 style=\"font-size:16px;margin-bottom:8px;\">IA analisa</h3><p style=\"font-size:13px;color:#8a8d9a;\">Inteligência artificial lê o perfil, comportamento e sinais de compra.</p></div>" }
+            }
+          ]
+        },
+        {
+          "id": "hiwc03",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "hiwc03w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#0d0e12;color:#fff;border-radius:20px;padding:26px;\"><div style=\"font-size:13px;color:#71717a;margin-bottom:14px;\">03</div><h3 style=\"font-size:16px;margin-bottom:8px;\">Sistema classifica</h3><p style=\"font-size:13px;color:#8a8d9a;\">Pronto para fechar, precisa de nutrição ou fora do perfil. Automático.</p></div>" }
+            }
+          ]
+        },
+        {
+          "id": "hiwc04",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "hiwc04w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#0d0e12;color:#fff;border-radius:20px;padding:26px;\"><div style=\"font-size:13px;color:#71717a;margin-bottom:14px;\">04</div><h3 style=\"font-size:16px;margin-bottom:8px;\">Chega organizado</h3><p style=\"font-size:13px;color:#8a8d9a;\">Você recebe o lead no painel com perfil completo e o próximo passo.</p></div>" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phases01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "120", "bottom": "120", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "phcol01",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "phbadge01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<span class=\"mk-badge\">As duas fases</span>" }
+            },
+            {
+              "id": "phtitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Da construção à evolução contínua.", "header_size": "h2", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 36 }, "typography_font_weight": "300" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phases02",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "0", "bottom": "60", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "phc01",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "phc01w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#f7f7f7;border:1px solid rgba(0,0,0,.08);border-radius:20px;padding:40px;\"><div style=\"font-size:13px;font-weight:600;color:#666;margin-bottom:16px;\">01 · CONSTRUÇÃO</div><h3 style=\"font-size:24px;font-weight:500;margin-bottom:16px;\">Construção</h3><p style=\"font-size:14.5px;color:#666;line-height:1.65;\">Levantamos o seu perfil de cliente ideal, definimos os sinais de compra e configuramos o sistema. Investimento único nessa etapa.</p></div>" }
+            }
+          ]
+        },
+        {
+          "id": "phc02",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "phc02w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#f7f7f7;border:1px solid rgba(0,0,0,.08);border-radius:20px;padding:40px;\"><div style=\"font-size:13px;font-weight:600;color:#666;margin-bottom:16px;\">02 · EVOLUÇÃO CONTÍNUA</div><h3 style=\"font-size:24px;font-weight:500;margin-bottom:16px;\">Evolução contínua</h3><p style=\"font-size:14.5px;color:#666;line-height:1.65;\">Acompanhamos, ajustamos e melhoramos diariamente. Quanto mais o sistema opera, mais preciso ele fica.</p></div>" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "results01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F3F3F3",
+        "padding": { "unit": "px", "top": "120", "bottom": "120", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "rescol01",
+          "elType": "column",
+          "settings": { "_column_size": 100, "content_position": "center" },
+          "elements": [
+            {
+              "id": "resbadge01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<span class=\"mk-badge\">Resultado real</span>" }
+            },
+            {
+              "id": "restitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Não é promessa. É o que já aconteceu, com um escritório igual ao seu.", "align": "center", "header_size": "h2", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 36 }, "typography_font_weight": "300" }
+            },
+            {
+              "id": "resstats01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"display:flex;justify-content:center;gap:80px;margin:40px 0;flex-wrap:wrap;\"><div style=\"text-align:center;\"><div style=\"font-size:56px;font-weight:600;background:linear-gradient(135deg,#7b0099,#e60073);-webkit-background-clip:text;-webkit-text-fill-color:transparent;\">10x</div><p style=\"font-size:14.5px;color:#666;max-width:260px;\">de crescimento no faturamento após o sistema entrar em operação</p></div><div style=\"text-align:center;\"><div style=\"font-size:56px;font-weight:600;background:linear-gradient(135deg,#7b0099,#e60073);-webkit-background-clip:text;-webkit-text-fill-color:transparent;\">4x</div><p style=\"font-size:14.5px;color:#666;max-width:260px;\">de redução no custo por lead qualificado</p></div></div>" }
+            },
+            {
+              "id": "resbtn01",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": { "text": "Quero o mesmo para o meu escritório", "link": { "url": "https://wa.me/5500000000000" }, "custom_css": "selector{background:linear-gradient(135deg,#7b0099 0%,#e60073 100%) !important;color:#fff !important;border-radius:999px !important;padding:18px 44px !important;}" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "120", "bottom": "120", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "whycol01",
+          "elType": "column",
+          "settings": { "_column_size": 55 },
+          "elements": [
+            {
+              "id": "whybadge01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<span class=\"mk-badge\">Por que a Mancekt</span>" }
+            },
+            {
+              "id": "whytitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Um ativo que vale mais a cada dia que opera. E que o escritório do lado ainda não tem.", "header_size": "h2", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 34 }, "typography_font_weight": "300" }
+            },
+            {
+              "id": "whytext01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style=\"font-size:15px;color:#666;margin-bottom:16px;\">O sistema é construído em cima do comportamento de compra do seu cliente de consórcio: como ele pesquisa, o que considera antes de decidir e em que momento está pronto para fechar.</p><p style=\"font-size:16px;font-weight:400;border-left:2px solid #111;padding-left:20px;\">Trabalhamos com um número limitado de escritórios por vez, para garantir atenção estratégica real.</p>" }
+            }
+          ]
+        },
+        {
+          "id": "whycol02",
+          "elType": "column",
+          "settings": { "_column_size": 45 },
+          "elements": [
+            {
+              "id": "whybox01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#0a0a0a;color:#fff;border-radius:24px;padding:36px;\"><div style=\"font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#aaa;margin-bottom:20px;\">Visão geral do sistema</div><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:20px;border-bottom:1px solid rgba(255,255,255,.08);padding-bottom:20px;margin-bottom:20px;\"><div><div style=\"font-size:24px;font-weight:500;\">R$148k</div><div style=\"font-size:11px;color:#10b981;\">↑ 10x desde o início</div></div><div><div style=\"font-size:24px;font-weight:500;\">R$12</div><div style=\"font-size:11px;color:#10b981;\">↓ 4x de redução</div></div></div><div style=\"font-size:13px;color:#ccc;display:flex;justify-content:space-between;padding:6px 0;\"><span>Leads captados</span><span style=\"color:#fff;font-weight:600;\">1.240</span></div><div style=\"font-size:13px;color:#ccc;display:flex;justify-content:space-between;padding:6px 0;\"><span>Qualificados pela IA</span><span style=\"color:#fff;font-weight:600;\">487</span></div><div style=\"font-size:13px;color:#ccc;display:flex;justify-content:space-between;padding:6px 0;\"><span>Convertidos em clientes</span><span style=\"color:#fff;font-weight:600;\">89</span></div></div>" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "market01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F3F3F3",
+        "padding": { "unit": "px", "top": "120", "bottom": "120", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "marketcol01",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "marketbadge01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<span class=\"mk-badge\">O mercado em números</span>" }
+            },
+            {
+              "id": "markettitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "O mercado de consórcio em números. E onde você está nele.", "header_size": "h2", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 34 }, "typography_font_weight": "300" }
+            },
+            {
+              "id": "marketlist01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<ul style=\"list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:16px 40px;padding:0;margin:30px 0;\"><li>→ 5,16 milhões de cotas vendidas em 2025, alta de 15%</li><li>→ R$500 bilhões em créditos comercializados, alta de 32%</li><li>→ 12,7 milhões de participantes ativos, recorde histórico</li><li>→ R$719 bilhões em ativos administrados, 6,1% do PIB</li><li>→ Imóveis cresceu 48,4% em créditos no último ano</li><li>→ Projeção: mercado deve superar R$1 trilhão até 2029</li></ul>" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invest01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "120", "bottom": "120", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "investcol01",
+          "elType": "column",
+          "settings": { "_column_size": 55 },
+          "elements": [
+            {
+              "id": "investbadge01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<span class=\"mk-badge\">O investimento</span>" }
+            },
+            {
+              "id": "investtitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Antes de falar em investimento, faz uma conta rápida.", "header_size": "h2", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 34 }, "typography_font_weight": "300" }
+            },
+            {
+              "id": "investlist01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<ul style=\"list-style:none;padding:0;\"><li style=\"margin-bottom:12px;\">→ Mapeamento do seu cliente ideal e comportamento de compra</li><li style=\"margin-bottom:12px;\">→ Estratégia de atração baseada em dados do mercado</li><li style=\"margin-bottom:12px;\">→ Jornada do cliente do primeiro contato até a venda</li><li style=\"margin-bottom:12px;\">→ IA para filtrar, classificar e qualificar cada lead</li><li style=\"margin-bottom:12px;\">→ Campanha de tráfego ativa e gerenciada</li><li style=\"margin-bottom:12px;\">→ Dashboards de controle em tempo real</li><li style=\"margin-bottom:12px;\">→ Acompanhamento diário com ajustes contínuos</li></ul>" }
+            },
+            {
+              "id": "investbtn01",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": { "text": "Quero ter controle sobre minhas vendas", "link": { "url": "https://wa.me/5500000000000" }, "custom_css": "selector{background:linear-gradient(135deg,#7b0099 0%,#e60073 100%) !important;color:#fff !important;border-radius:999px !important;padding:16px 44px !important;}" }
+            }
+          ]
+        },
+        {
+          "id": "investcol02",
+          "elType": "column",
+          "settings": { "_column_size": 45 },
+          "elements": [
+            {
+              "id": "investbox01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<div style=\"background:#f3f3f3;border:1px solid rgba(0,0,0,.08);border-radius:20px;padding:35px;margin-bottom:30px;\"><h4 style=\"font-size:18px;font-weight:500;margin-bottom:8px;\">Construção única + acompanhamento mensal fixo</h4><p style=\"font-size:14px;color:#666;\">Sem contrato de 12 meses. Sem taxa de cancelamento.</p></div><div style=\"background:#0a0a0a;color:#fff;border-radius:24px;padding:40px;\"><span style=\"font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#aaa;border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 10px;\">Garantia incondicional</span><h3 style=\"font-size:24px;font-weight:300;margin:20px 0;\">30 dias de clareza total ou seu dinheiro de volta.</h3><p style=\"font-size:14.5px;color:#ccc;\">Se em 30 dias você não enxergar clareza total, a gente devolve o valor do primeiro mês. Sem burocracia.</p></div>" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diag01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F3F3F3",
+        "padding": { "unit": "px", "top": "100", "bottom": "100", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "diagcol01",
+          "elType": "column",
+          "settings": { "_column_size": 100, "content_position": "center" },
+          "elements": [
+            {
+              "id": "diagbadge01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<span class=\"mk-badge\">Gratuito</span>" }
+            },
+            {
+              "id": "diagtitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Antes de qualquer decisão, entenda onde está o gargalo do seu escritório hoje.", "align": "center", "header_size": "h2", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 32 }, "typography_font_weight": "300" }
+            },
+            {
+              "id": "diagbtn01",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": { "text": "Quero meu diagnóstico gratuito", "link": { "url": "https://wa.me/5500000000000" }, "custom_css": "selector{background:linear-gradient(135deg,#7b0099 0%,#e60073 100%) !important;color:#fff !important;border-radius:999px !important;padding:18px 44px !important;}" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "120", "bottom": "120", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "faqcol01",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "faqtitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Perguntas frequentes", "align": "center", "header_size": "h2", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 34 }, "typography_font_weight": "300" }
+            },
+            {
+              "id": "faqtoggle01",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  { "tab_title": "O que exatamente vocês entregam?", "tab_content": "Um sistema completo de geração e qualificação de clientes de consórcio, construído em cima do seu escritório." },
+                  { "tab_title": "Quanto tempo leva para o sistema estar funcionando?", "tab_content": "A fase de construção leva entre 2 e 3 semanas. Os primeiros leads já chegam na primeira semana de operação." },
+                  { "tab_title": "Preciso ter uma equipe de vendas para contratar?", "tab_content": "Não. O sistema entrega os leads qualificados e prontos para conversa comercial." },
+                  { "tab_title": "Funciona pra representante autônomo ou só pra escritório grande?", "tab_content": "Funciona pros dois. O que muda é o volume de leads entregue." },
+                  { "tab_title": "Como funciona o acompanhamento diário?", "tab_content": "Monitoramos volume de leads, qualidade do perfil, taxa de conversão e desempenho da campanha todos os dias." },
+                  { "tab_title": "Qual a diferença de contratar a Mancekt e um gestor de tráfego?", "tab_content": "O gestor de tráfego entrega cliques. A gente entrega o sistema que transforma esses cliques em cotas fechadas." },
+                  { "tab_title": "E se eu não tiver resultados no primeiro mês?", "tab_content": "Se em 30 dias você não enxergar clareza total, a gente devolve o valor do primeiro mês. Sem burocracia." },
+                  { "tab_title": "Quantos escritórios vocês atendem ao mesmo tempo?", "tab_content": "Trabalhamos com um número limitado por vez, para garantir atenção real a cada sistema." },
+                  { "tab_title": "Qual o investimento?", "tab_content": "Construção única mais acompanhamento mensal fixo. O valor varia de acordo com o tamanho do seu escritório." }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "closing01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "padding": { "unit": "px", "top": "100", "bottom": "100", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "closingcol01",
+          "elType": "column",
+          "settings": { "_column_size": 100, "content_position": "center" },
+          "elements": [
+            {
+              "id": "closingtitle01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Se você chegou até aqui, o mercado de consórcio já bateu recorde histórico e o escritório do lado pode já estar se movendo.",
+                "align": "center",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 32 },
+                "typography_font_weight": "300",
+                "title_color": "#FFFFFF"
+              }
+            },
+            {
+              "id": "closingtext01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style=\"text-align:center;color:#aaa;font-size:16px;max-width:640px;margin:0 auto 30px;\">A única pergunta é: quantas cotas a mais você vai deixar passar dependendo de sorte e indicação, enquanto quem tem sistema fecha todo dia?</p>" }
+            },
+            {
+              "id": "closingbtn01",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": { "text": "Quero ter controle sobre minhas vendas", "align": "center", "link": { "url": "https://wa.me/5500000000000" }, "custom_css": "selector{background:linear-gradient(135deg,#7b0099 0%,#e60073 100%) !important;color:#fff !important;border-radius:999px !important;padding:18px 44px !important;}" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer01",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "padding": { "unit": "px", "top": "24", "bottom": "24", "left": "40", "right": "40" }
+      },
+      "elements": [
+        {
+          "id": "footercol01",
+          "elType": "column",
+          "settings": { "_column_size": 100, "content_position": "center" },
+          "elements": [
+            {
+              "id": "footertext01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style=\"text-align:center;color:#aaa;font-size:11px;\">© 2026 Mancekt. Todos os direitos reservados.</p>" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
