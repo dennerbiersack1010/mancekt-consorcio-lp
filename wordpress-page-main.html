@@ -49,9 +49,11 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  min-width: 0;
 }
 #mancekt-lp-root .asym-right {
 
+  min-width: 0;
   display: flex;
   flex-direction: column;
 }
@@ -569,11 +571,13 @@
 
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 #mancekt-lp-root .sol-right {
 
   display: flex;
   justify-content: flex-end;
+  min-width: 0;
 }
 #mancekt-lp-root .leads-dashboard {
 
@@ -896,11 +900,13 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  min-width: 0;
 }
 #mancekt-lp-root .mec-right {
 
   display: flex;
   justify-content: flex-end;
+  min-width: 0;
 }
 #mancekt-lp-root .mec5-card {
 
@@ -1482,6 +1488,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 22px 0;
+  min-width: 0;
   background: none;
   border: none;
   cursor: pointer;
@@ -1492,6 +1499,10 @@
   color: var(--color-text-dark);
   gap: 16px;
   transition: var(--transition-fast);
+}
+#mancekt-lp-root .faq-q span {
+
+  min-width: 0;
 }
 #mancekt-lp-root .faq-q:hover {
 
@@ -1639,6 +1650,19 @@
 
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+#mancekt-lp-root .sol-grid {
+
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+#mancekt-lp-root .sol-right {
+
+    justify-content: center;
+  }
+#mancekt-lp-root .leads-dashboard {
+
+    max-width: 100%;
   }
 
 }
