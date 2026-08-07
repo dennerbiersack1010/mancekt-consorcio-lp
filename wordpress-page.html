@@ -27,6 +27,7 @@
 #mancekt-lp-root img { max-width: 100%; }
 #mancekt-lp-root a { text-decoration: none; }
 
+
 /* Header */
 #mancekt-lp-root .header { position: absolute; top: 0; left: 0; right: 0; height: 90px; display: flex; align-items: center; z-index: 100; }
 #mancekt-lp-root .header-container { width: 100%; max-width: 1300px; margin: 0 auto; padding: 0 40px; display: flex; align-items: center; justify-content: space-between; }
@@ -43,7 +44,7 @@
 #mancekt-lp-root .hero-grid-container { width: 100%; max-width: 1300px; margin: 0 auto; padding: 0 40px; display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 20px; position: relative; z-index: 25; }
 #mancekt-lp-root .hero-content { display: flex; flex-direction: column; align-items: flex-start; padding-right: 20px; }
 #mancekt-lp-root .hero-title { font-size: 38px; font-weight: 700; line-height: 1.25; letter-spacing: -0.015em; color: var(--text-dark); margin-bottom: 24px; max-width: 620px; }
-#mancekt-lp-root .hero-title-sub { font-size: 26px; font-weight: 400; display: block; margin-top: 16px; color: var(--text-gray); letter-spacing: -0.01em; line-height: 1.3; }
+#mancekt-lp-root .hero-title-sub { font-size: 19px; font-weight: 400; display: block; margin-top: 16px; color: var(--text-gray); letter-spacing: -0.01em; line-height: 1.3; }
 #mancekt-lp-root .gradient-text { background: var(--grad); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; }
 #mancekt-lp-root .hero-subtitle { font-size: 16px; font-weight: 300; line-height: 1.65; color: var(--text-gray); max-width: 540px; margin-bottom: 36px; }
 #mancekt-lp-root .hero-subtitle strong { font-weight: 500; color: var(--text-dark); }
@@ -238,7 +239,7 @@
 @media (max-width: 1024px) {
   #mancekt-lp-root .hero-grid-container { grid-template-columns: 1fr 1fr; padding: 0 30px; }
   #mancekt-lp-root .hero-title { font-size: 32px; }
-  #mancekt-lp-root .hero-title-sub { font-size: 22px; }
+  #mancekt-lp-root .hero-title-sub { font-size: 19px; }
   #mancekt-lp-root .image-wrapper { height: 420px; }
   #mancekt-lp-root .solution-grid, #mancekt-lp-root .investment-grid { grid-template-columns: 1fr; gap: 40px; }
   #mancekt-lp-root .problem-grid-symmetrical, #mancekt-lp-root .learning-grid, #mancekt-lp-root .evolution-grid, #mancekt-lp-root .why-mancekt-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
@@ -285,6 +286,17 @@
   #mancekt-lp-root .guarantee-box { padding: 32px; }
   #mancekt-lp-root .stats-group-mancekt { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
   #mancekt-lp-root .mancekt-stat-col::after { display: none; }
+}
+
+/* Full-bleed fix: break the whole widget out of the WordPress theme's content container.
+   Placed last so it wins the cascade over the earlier .hero-wrapper width:100% rule. */
+#mancekt-lp-root .hero-wrapper {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 </style>
 
