@@ -269,13 +269,15 @@ img {
 
 .hero-aesthetic-img {
   position: absolute !important;
-  bottom: 0;
-  right: 0;
-  width: 90% !important;
-  height: 90% !important;
+  bottom: -40px;
+  right: -20px;
+  width: 125% !important;
+  height: 125% !important;
   object-fit: contain !important;
   object-position: bottom center;
   max-width: none;
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 82%, transparent 96%);
+  mask-image: linear-gradient(to bottom, black 0%, black 82%, transparent 96%);
 }
 
 /* Diagonal divider */
