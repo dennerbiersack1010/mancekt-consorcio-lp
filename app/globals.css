@@ -269,8 +269,10 @@ img {
 
 .hero-aesthetic-img {
   position: absolute !important;
-  bottom: 10px;
-  right: -20px;
+  top: auto !important;
+  left: auto !important;
+  bottom: 55px !important;
+  right: -20px !important;
   width: 115% !important;
   height: 115% !important;
   object-fit: contain !important;
