@@ -61,14 +61,11 @@ function Hero() {
     <section className="hero-section">
       <div className="hero-grid-container">
         <div className="hero-content">
-          <div className="hero-meta-tag">
-            <span className="meta-label">Para escritórios e representantes de consórcio que dependem de indicação</span>
-          </div>
-
           <h1 className="hero-title">
-            Seu escritório está no setor que bateu recorde em 2025.
+            Para escritórios e representantes de consórcio que dependem de indicação
             <span className="hero-title-sub">
-              O problema nunca foi mercado. <span className="gradient-text">É&nbsp;qualificação de lead.</span>
+              Seu escritório está no setor que bateu recorde em 2025. O problema nunca foi mercado.{" "}
+              <span className="gradient-text">É&nbsp;qualificação de lead.</span>
             </span>
           </h1>
 
@@ -90,9 +87,10 @@ function Hero() {
           <div className="image-wrapper">
             <Image
               src="/assets/hero-consultor.png"
-              alt="Consultor de consórcio"
+              alt="Consultor financeiro e de consórcio"
               fill
               className="hero-aesthetic-img"
+              priority
             />
           </div>
         </div>
