@@ -89,8 +89,8 @@ function Hero() {
         <div className="hero-visual">
           <div className="image-wrapper">
             <Image
-              src="/assets/aesthetic-hero.png"
-              alt="Escritório de consórcio"
+              src="/assets/hero-consultor.png"
+              alt="Consultor de consórcio"
               fill
               className="hero-aesthetic-img"
             />
